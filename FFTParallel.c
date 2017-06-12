@@ -1,5 +1,5 @@
 //**************************************************************
-// Name: Anthony Enem and Ali Khalid
+// Names: Anthony Enem and Ali Khalid
 //***************************************************************
 // This is a parallel implementation of the radix-2 FFT algorithm.
 // All processes first calculate (N/2)/comm_size of the euler values
