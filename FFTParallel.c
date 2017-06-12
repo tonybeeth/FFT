@@ -7,10 +7,8 @@
 // MPI_Allgather. Then each process computes (N/2)/comm_size of 
 // the result and gathers their results to process 0 which ouputs it.
 //
-// Compilation: mpicc EnemKhalidParallel.c -lm -o parallel.out
-// Execution: qsub script
-// **Modification to the script: we added a change directory command 
-// so the output is created in the same directory.
+// Compilation: mpicc [filename] -lm -o [exe name]
+// Execution: mpirun -np [number of processes] [exe name]
 //
 //*****************************************************************
 
